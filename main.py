@@ -362,8 +362,8 @@ def Denmark_VPN(merge_output):
     AmazonPrimeDK_obj.create_object()
 
     # Youtube Premium
-    #YoutubePremiumDK_obj = YoutubePremiumDK()
-    #YoutubePremiumDK_obj.create_object()
+    YoutubePremiumDK_obj = YoutubePremiumDK()
+    YoutubePremiumDK_obj.create_object()
 
     # Eurosportplayer DK
     EurosportPlayerDK_obj = EurosportPlayerDK()
@@ -410,7 +410,7 @@ def Denmark_VPN(merge_output):
                                                 AmazonPrimeDK_obj.AMAZON_DK, TV2_DK_obj.DK, apple_obj.DK,
                                                 EurosportPlayerDK_obj.DK, Hayu_obj_DK.DK, 
                                                 NordiskFilmPlus_obj.DK,
-                                               # YoutubePremiumDK_obj.DK,
+                                                YoutubePremiumDK_obj.DK,
                                                 SkyShowTime_obj.DK, YouSee_DK_obj.DK])
 
     read_data_d2c(file_DK, merge_output.DK, 'DK')
@@ -419,10 +419,10 @@ if __name__ == "__main__":
     chromedriver_autoinstaller.install()
     merge_output = MergeOutput()
     # SWEDEN
-    # Sweden_VPN(merge_output)
+    Sweden_VPN(merge_output)
     # FINLAND
     #Finland_VPN(merge_output)
     # NORWAY
     #Norway_VPN(merge_output)
     # DENMARK
-    Denmark_VPN(merge_output)
+    #Denmark_VPN(merge_output)
