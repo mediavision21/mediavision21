@@ -1,0 +1,1094 @@
+{
+  "data" : [ {
+    "attributes" : {
+      "alias" : "premium",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Live"
+    },
+    "id" : "1",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "23f8725c-f5e7-423c-a353-4efd59328a68",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "capabilityDefinition" : {
+        "data" : [ {
+          "id" : "2ffe5e0c-b955-462c-9770-4d30c9bb7681",
+          "type" : "capabilityDefinition"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        }, {
+          "id" : "Live",
+          "type" : "package"
+        }, {
+          "id" : "Sport",
+          "type" : "package"
+        }, {
+          "id" : "Olympic1",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "170",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "sport",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Total"
+    },
+    "id" : "6",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "feab9563-a69b-498e-a7ca-2b6f0ff0aad7",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "capabilityDefinition" : {
+        "data" : [ {
+          "id" : "5250faa1-c5c8-4f24-ba1b-9c75d48bf7c8",
+          "type" : "capabilityDefinition"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        }, {
+          "id" : "Live",
+          "type" : "package"
+        }, {
+          "id" : "Sport",
+          "type" : "package"
+        }, {
+          "id" : "Olympic1",
+          "type" : "package"
+        }, {
+          "id" : "Allsvenskan",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "160",
+          "type" : "pricePlan"
+        }, {
+          "id" : "161",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "entertainment",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Underhållning"
+    },
+    "id" : "8",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "03ff3388-cecd-4fad-998b-6762cd2a44e0",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "capabilityDefinition" : {
+        "data" : [ {
+          "id" : "1b304f28-8ddc-435f-bce0-0796fcebc000",
+          "type" : "capabilityDefinition"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "374",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "telia",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Telia"
+    },
+    "id" : "9",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "3004e5bc-f271-4d95-b8a9-d28c3c6bbbab",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        }, {
+          "id" : "Live",
+          "type" : "package"
+        }, {
+          "id" : "Sport",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "143",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "4",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "free",
+      "campaignsExist" : false,
+      "description" : null,
+      "name" : "Gratis"
+    },
+    "id" : "10",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "727f87dc-d74b-4a00-a5df-523a482aee31",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "138",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "live-fta",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Live + TV"
+    },
+    "id" : "11",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "46df5221-3884-4eaf-8f92-7af7ce5b664e",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "capabilityDefinition" : {
+        "data" : [ {
+          "id" : "d15384d5-7ecc-4e0c-8ce2-adfebfc05f35",
+          "type" : "capabilityDefinition"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        }, {
+          "id" : "Live",
+          "type" : "package"
+        }, {
+          "id" : "Sport",
+          "type" : "package"
+        }, {
+          "id" : "Fta",
+          "type" : "package"
+        }, {
+          "id" : "VodFta",
+          "type" : "package"
+        }, {
+          "id" : "Olympic1",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "204",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  }, {
+    "attributes" : {
+      "alias" : "total-cmore",
+      "campaignsExist" : true,
+      "description" : null,
+      "name" : "Total + C More Sport"
+    },
+    "id" : "12",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "e6e21497-f3be-4ec8-8367-67cdc2b63a1f",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "capabilityDefinition" : {
+        "data" : [ {
+          "id" : "3280ac4f-4c1b-47f4-80ea-dd59834dc761",
+          "type" : "capabilityDefinition"
+        } ]
+      },
+      "package" : {
+        "data" : [ {
+          "id" : "Premium",
+          "type" : "package"
+        }, {
+          "id" : "Live",
+          "type" : "package"
+        }, {
+          "id" : "Sport",
+          "type" : "package"
+        }, {
+          "id" : "Fta",
+          "type" : "package"
+        }, {
+          "id" : "Cmore",
+          "type" : "package"
+        }, {
+          "id" : "VodFta",
+          "type" : "package"
+        }, {
+          "id" : "LiveEventsCmore",
+          "type" : "package"
+        }, {
+          "id" : "Olympic1",
+          "type" : "package"
+        }, {
+          "id" : "Allsvenskan",
+          "type" : "package"
+        } ]
+      },
+      "pricePlan" : {
+        "data" : [ {
+          "id" : "410",
+          "type" : "pricePlan"
+        }, {
+          "id" : "206",
+          "type" : "pricePlan"
+        } ]
+      },
+      "productType" : {
+        "data" : {
+          "id" : "1",
+          "type" : "productType"
+        }
+      }
+    },
+    "type" : "product"
+  } ],
+  "included" : [ {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "145nm",
+          "text" : "Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.</p>\n"
+    },
+    "id" : "03915cac-a5d6-4fb5-a5e9-23789de60c64",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "diqm8",
+          "text" : "Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "9140v",
+          "text" : "Ingen reklam, ingen bindningstid",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "9a4em",
+          "text" : "Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!</li>\n<li>Ingen reklam, ingen bindningstid</li>\n<li>Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet</li>\n</ul>\n"
+    },
+    "id" : "03ff3388-cecd-4fad-998b-6762cd2a44e0",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "etvm1",
+          "text" : "Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.</p>\n"
+    },
+    "id" : "07c00a1e-b001-481a-a6a8-2e7d61af084a",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "ent6e",
+          "text" : "Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.</p>\n"
+    },
+    "id" : "084b5740-2ba6-4b19-ad66-f36bafcbbe11",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "2j6in",
+          "text" : "Se nio kanaler live! Bl.a. Kanal 5, Kanal 9, Kanal 11 & Eurosport",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "e87cv",
+          "text" : "Se utvald sport, t.ex. FA-cupen och UEFA Europa League",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "abbff",
+          "text" : "Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "ef33c",
+          "text" : "Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Se nio kanaler live! Bl.a. Kanal 5, Kanal 9, Kanal 11 &amp; Eurosport</li>\n<li>Se utvald sport, t.ex. FA-cupen och UEFA Europa League</li>\n<li>Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!</li>\n<li>Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet</li>\n</ul>\n"
+    },
+    "id" : "23f8725c-f5e7-423c-a353-4efd59328a68",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "6t0pc",
+          "text" : "Se Allsvenskan och Superettan",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "8lprg",
+          "text" : "Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "62fei",
+          "text" : "Se nio kanaler live! Bl.a. Kanal 5, Kanal 9, Kanal 11 & Eurosport",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "cffvu",
+          "text" : "Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Se Allsvenskan och Superettan</li>\n<li>Njut av exklusiv underhållning och aktuella dokumentärer före alla andra!</li>\n<li>Se nio kanaler live! Bl.a. Kanal 5, Kanal 9, Kanal 11 &amp; Eurosport</li>\n<li>Prisbelönade dokumentärer från BBC, bl.a. Planet Earth och Blue Planet</li>\n</ul>\n"
+    },
+    "id" : "3004e5bc-f271-4d95-b8a9-d28c3c6bbbab",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "4om8s",
+          "text" : "Underhållning och dokumentärer",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "dp25v",
+          "text" : "Exklusiva förhandsvisningar",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "4dpji",
+          "text" : "Ingen reklam*, ingen bindningstid",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "fsg0o",
+          "text" : "Europa League, ATP-touren och Grand Slam, cykling m.m.",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "8ubrm",
+          "text" : "15 st TV-kanaler, bl.a. TV4, Kanal 5 & Sjuan",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Underhållning och dokumentärer</li>\n<li>Exklusiva förhandsvisningar</li>\n<li>Ingen reklam*, ingen bindningstid</li>\n<li>Europa League, ATP-touren och Grand Slam, cykling m.m.</li>\n<li>15 st TV-kanaler, bl.a. TV4, Kanal 5 &amp; Sjuan</li>\n</ul>\n"
+    },
+    "id" : "46df5221-3884-4eaf-8f92-7af7ce5b664e",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : null
+    },
+    "id" : "578bc233-ac07-47a9-bf14-d7d20de806cf",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "7apac",
+          "text" : "Bindningstiden är 12 månader (total årskostnad 3588 kr), om du säger upp abonnemanget före bindningstidens utgång kommer du att debiteras under kvarvarande bindningstid. Abonnemanget omvandlas automatiskt i slutet av bindningstiden till ett löpande månatligt abonnemang till den kostnad som vid var tid gäller för Total eller motsvarande paket (för närvarande 349kr/mån), om du inte sagt upp det dessförinnan.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Bindningstiden är 12 månader (total årskostnad 3588 kr), om du säger upp abonnemanget före bindningstidens utgång kommer du att debiteras under kvarvarande bindningstid. Abonnemanget omvandlas automatiskt i slutet av bindningstiden till ett löpande månatligt abonnemang till den kostnad som vid var tid gäller för Total eller motsvarande paket (för närvarande 349kr/mån), om du inte sagt upp det dessförinnan.</p>\n"
+    },
+    "id" : "5e47bc4d-c7bb-4dc3-b3f4-77b74ef21478",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "4hf8b",
+          "text" : "Inga kortuppgifter behövs",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "c6das",
+          "text" : "Fortsätt titta där du slutade",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Inga kortuppgifter behövs</li>\n<li>Fortsätt titta där du slutade</li>\n</ul>\n"
+    },
+    "id" : "727f87dc-d74b-4a00-a5df-523a482aee31",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "44f7e",
+          "text" : "Prova första månaden för 39 kr (gäller tills vidare). Omvandlas automatiskt till ett abonnemang för 79 kr/mån om det inte sägs upp innan de första 30 dagarna. Därefter förlängs abonnemanget löpande med en månad i taget. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Prova första månaden för 39 kr (gäller tills vidare). Omvandlas automatiskt till ett abonnemang för 79 kr/mån om det inte sägs upp innan de första 30 dagarna. Därefter förlängs abonnemanget löpande med en månad i taget. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.</p>\n"
+    },
+    "id" : "75ff6334-e8a5-42c3-8e87-aeaca0b2c679",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : null
+    },
+    "id" : "7f4cae20-af56-48e7-9893-dbf86fc59857",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "234kj",
+          "text" : "Bindningstiden är 12 månader (total årskostnad 4 788 kr), om du säger upp abonnemanget före bindningstidens utgång kommer du att debiteras under kvarvarande bindningstid. Abonnemanget omvandlas automatiskt i slutet av bindningstiden till ett löpande månatligt abonnemang till den kostnad som vid var tid gäller för Total + C More Sport eller motsvarande paket (för närvarande 549 kr/mån), om du inte sagt upp det dessförinnan.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Bindningstiden är 12 månader (total årskostnad 4 788 kr), om du säger upp abonnemanget före bindningstidens utgång kommer du att debiteras under kvarvarande bindningstid. Abonnemanget omvandlas automatiskt i slutet av bindningstiden till ett löpande månatligt abonnemang till den kostnad som vid var tid gäller för Total + C More Sport eller motsvarande paket (för närvarande 549 kr/mån), om du inte sagt upp det dessförinnan.</p>\n"
+    },
+    "id" : "819c63f6-439a-487b-a8f1-fe9a8146a5c1",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "cv16l",
+          "text" : "Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p>Abonnemanget förlängs löpande med en månad i taget till samma pris. Avsluta när du vill. Ingen återbetalning för påbörjade betalningsperioder.</p>\n"
+    },
+    "id" : "df1646d1-a51e-41df-99bb-a7b4df56e969",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "avef1",
+          "text" : "Underhållning och dokumentärer",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "djt9i",
+          "text" : "Exklusiva förhandsvisningar",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "c0hh2",
+          "text" : "Ingen reklam*, ingen bindningstid",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "5d80",
+          "text" : "Europa League, ATP-touren och Grand Slam, cykling m.m.",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "bnrho",
+          "text" : "15 st livekanaler, bl.a. TV4, Kanal 5 & Eurosport",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "3ii8l",
+          "text" : "Hela Allsvenskan och Superettan",
+          "type" : "unordered-list-item"
+        }, {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "48pjf",
+          "text" : "All sport från C More, bl.a. SHL, La Liga & Serie A",
+          "type" : "unordered-list-item"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<ul>\n<li>Underhållning och dokumentärer</li>\n<li>Exklusiva förhandsvisningar</li>\n<li>Ingen reklam*, ingen bindningstid</li>\n<li>Europa League, ATP-touren och Grand Slam, cykling m.m.</li>\n<li>15 st livekanaler, bl.a. TV4, Kanal 5 &amp; Eurosport</li>\n<li>Hela Allsvenskan och Superettan</li>\n<li>All sport från C More, bl.a. SHL, La Liga &amp; Serie A</li>\n</ul>\n"
+    },
+    "id" : "e6e21497-f3be-4ec8-8367-67cdc2b63a1f",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "richTextContent" : {
+        "blocks" : [ {
+          "data" : { },
+          "depth" : 0,
+          "entityRanges" : [ ],
+          "inlineStyleRanges" : [ ],
+          "key" : "aafa1",
+          "text" : "",
+          "type" : "unstyled"
+        } ],
+        "entityMap" : { }
+      },
+      "richTextHtml" : "<p></p>\n"
+    },
+    "id" : "feab9563-a69b-498e-a7ca-2b6f0ff0aad7",
+    "type" : "articleBodyRichText"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "INFINITY",
+      "price" : 0,
+      "provider" : null,
+      "requirePaymentMethod" : false,
+      "subscriptionStartDate" : null,
+      "type" : "FREE",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "138",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "578bc233-ac07-47a9-bf14-d7d20de806cf",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "INFINITY",
+      "price" : 0,
+      "provider" : null,
+      "requirePaymentMethod" : false,
+      "subscriptionStartDate" : null,
+      "type" : "FREE",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "143",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "7f4cae20-af56-48e7-9893-dbf86fc59857",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 34900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Total monthly",
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "160",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "07c00a1e-b001-481a-a6a8-2e7d61af084a",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 12,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : 12,
+      "period" : "MONTH",
+      "price" : 29900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Total annual",
+      "type" : "INSTALMENTS",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "161",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "5e47bc4d-c7bb-4dc3-b3f4-77b74ef21478",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "parentPricePlan" : {
+        "data" : {
+          "id" : "160",
+          "type" : "pricePlan"
+        }
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 12900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Live monthly",
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "170",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "084b5740-2ba6-4b19-ad66-f36bafcbbe11",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 14900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Live + TV monthly",
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "204",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "df1646d1-a51e-41df-99bb-a7b4df56e969",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : "2021-08-01T21:59:00Z",
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 49900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Total + C More Sport monthly",
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "UNKNOWN"
+    },
+    "id" : "205",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "6da68467-cc37-4c4c-9978-529353640e98",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 12,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : 12,
+      "period" : "MONTH",
+      "price" : 39900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Total + C More Sport annual",
+      "type" : "INSTALMENTS",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "206",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "819c63f6-439a-487b-a8f1-fe9a8146a5c1",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "parentPricePlan" : {
+        "data" : {
+          "id" : "205",
+          "type" : "pricePlan"
+        }
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : 1,
+      "period" : "MONTH",
+      "price" : 3900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "374",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "75ff6334-e8a5-42c3-8e87-aeaca0b2c679",
+          "type" : "articleBodyRichText"
+        } ]
+      },
+      "parentPricePlan" : {
+        "data" : {
+          "id" : "387",
+          "type" : "pricePlan"
+        }
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 7900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "title" : "Underhållning",
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "UNKNOWN"
+    },
+    "id" : "387",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "f4a8c9a7-49f5-4276-b44a-daefef9b0b3b",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  }, {
+    "attributes" : {
+      "currency" : "SEK",
+      "currencyDecimalPoints" : 2,
+      "customAttributes" : null,
+      "endDate" : null,
+      "inAppStoreId" : null,
+      "numberOfInstalments" : 0,
+      "numberOfPeriodsBetweenPayments" : 1,
+      "numberOfValidPeriods" : null,
+      "period" : "MONTH",
+      "price" : 54900,
+      "provider" : null,
+      "requirePaymentMethod" : true,
+      "subscriptionStartDate" : null,
+      "type" : "ONGOING",
+      "userFreeTrialStatus" : "NOT_AVAILABLE"
+    },
+    "id" : "410",
+    "relationships" : {
+      "body" : {
+        "data" : [ {
+          "id" : "03915cac-a5d6-4fb5-a5e9-23789de60c64",
+          "type" : "articleBodyRichText"
+        } ]
+      }
+    },
+    "type" : "pricePlan"
+  } ]
+}
