@@ -15,20 +15,26 @@ class AmazonPrime_SE:
         return [AmazonPrime, AmazonPrime + " Årsplan"]
 
 # Method to scrape price information
-    def price(self, driver):
-        price_list = []
-        information = driver.find_element(scrape.By.CSS_SELECTOR,'div.dv-copy-body p').text
+    def price(self, driver, is_second_layout):
+        if is_second_layout:
+            information = driver.find_element(scrape.By.CSS_SELECTOR, 'div.dv-merch-bottom p').text
+        else:
+            information = driver.find_element(scrape.By.CSS_SELECTOR,'div.dv-copy-body p').text
         return re.findall(r'\d+.\d+', information)
 
 # Method to scrape information about campaigns
-    def campaign(self, driver):
+    def campaign(self, driver, is_second_layout):
         campaign_list = []
-        campaign_list.extend(2*[driver.find_element(scrape.By.CSS_SELECTOR,'span.dv-content').text])
+        if is_second_layout:
+            campaign_list.extend(2*[driver.find_elements(scrape.By.CSS_SELECTOR, 'span.dv-content')[1].text])
+        else:
+            campaign_list.extend(2*[driver.find_element(scrape.By.CSS_SELECTOR,'span.dv-content').text])
         return campaign_list
 
 
 # Method to scrape information about the packages
     def information(self, driver):
+        # Informationshämtningen ser likadan ut för båda layouts
         information_list = []
         information = driver.find_elements(scrape.By.CSS_SELECTOR,'div.dv-copy-body p')
         for i in information:
@@ -40,9 +46,22 @@ class AmazonPrime_SE:
     def create_object(self):
         driver = scrape.selenium_site(self.URL)
         time.sleep(5)
+
+        # För tillfället finns det 2 layouts för Amazon Prime, just nu fungerar det att kolla
+        # om denna text börjar med Prime men det kan ändra på sig
+
+        is_second_layout = False
+        if driver.find_element(scrape.By.CSS_SELECTOR,'span.dv-content').text.startswith("Prime"):
+            is_second_layout = True
+
+        if is_second_layout:
+            print("Layout 2 for Amazon Prime is displayed in chrome")
+        else:
+            print("Layout 1 of Amazon Prime is displayed in chrome")
+
         self.SE['Package'] = self.package_name()
-        self.SE['Price'] = self.price(driver)
-        self.SE['Campaign'] = self.campaign(driver)
+        self.SE['Price'] = self.price(driver, is_second_layout)
+        self.SE['Campaign'] = self.campaign(driver, is_second_layout)
         self.SE['Information'] = self.information(driver)
         driver.close()
         # --- Error-handling --- check all lists same length
